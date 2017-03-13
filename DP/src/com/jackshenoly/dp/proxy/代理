@@ -1,0 +1,14 @@
+代理模式（Proxy）
+
+
+
+
+动态编译：
+    1.生成代码保存在文件
+    2.compile
+    3.load to memory
+        Class  c = new URLClassLoader(urls).loadClass("com.jackshenonly.dp.xxx");
+
+    4.create an instance
+        Constractor ctr = c.getConstractor(xxx.class);
+        Xxxx m = (Xxx)ctr.newInstance(new Tank())
